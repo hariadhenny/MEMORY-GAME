@@ -1,0 +1,35 @@
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(231, 150, 231, 0.689);
+    margin: 100px auto;
+
+}
+
+.card {
+    width: 100%;
+    aspect-ratio: 3/4;
+    background-color:  rgba(197, 22, 197, 0.568);
+    border-radius: 5px;
+    position: relative;
+}
+
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Front{
+    background-color: black;
+}
+
+.Back{
+    background-color: blue;
+
+}
